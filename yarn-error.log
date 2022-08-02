@@ -1,0 +1,41 @@
+Arguments: 
+  /usr/local/Cellar/node/18.4.0/bin/node /usr/local/Cellar/yarn/1.22.18/libexec/bin/yarn.js add graphql-yaga
+
+PATH: 
+  /Users/minjun/devflutter/flutter/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  18.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/graphql-yaga: Not found
+      at params.callback [as _callback] (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:66138:18)
+      at self.callback (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:140883:22)
+      at Request.emit (node:events:537:28)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:141855:10)
+      at Request.emit (node:events:537:28)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.22.18/libexec/lib/cli.js:141777:12)
+      at Object.onceWrapper (node:events:651:28)
+      at IncomingMessage.emit (node:events:549:35)
+      at endReadableNT (node:internal/streams/readable:1359:12)
+      at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
